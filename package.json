@@ -1,0 +1,19 @@
+{
+  "name": "storage_engine",
+  "version": "1.0.0",
+  "description": "Storage engine to manage my personal files and notes",
+  "main": "index.js",
+  "scripts": {
+    "start": "directus start",
+    "sync": "directus bootstrap",
+    "snapshot": "directus schema snapshot --yes ./snapshot.yaml",
+    "restore": "directus schema apply --yes ./snapshot.yaml"
+  },
+  "keywords": ["directus"],
+  "author": "Ravindra Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "directus": "^9.25.1",
+    "sqlite3": "^5.1.6"
+  }
+}
