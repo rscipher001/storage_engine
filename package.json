@@ -13,7 +13,7 @@
   "author": "Ravindra Kumar",
   "license": "ISC",
   "dependencies": {
-    "directus": "^9.25.1",
+    "directus": "^10.0.0",
     "sqlite3": "^5.1.6"
   }
 }
